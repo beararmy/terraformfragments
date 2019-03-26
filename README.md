@@ -1,0 +1,1 @@
+These are a few fragments of useful copy / pastable code to be used in ... things
