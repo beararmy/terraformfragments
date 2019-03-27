@@ -1,3 +1,4 @@
+#Discovered today that if you use a SAS token that has a plus in, this will fail.
 resource "azurerm_virtual_machine_extension" "CustomExtension" {
   name                 = "${azurerm_virtual_machine.vm.name}-CustomScriptExtension"
   location             = "${var.location}"
